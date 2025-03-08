@@ -1,4 +1,4 @@
-# GitHub Repositories Exlporer
+# GitHub Repositories Explorer
 
 ## Description
 
@@ -81,6 +81,4 @@ yarn build
 
 ## Additional Information
 
-- The application fetches user data from https://jsonplaceholder.typicode.com/users
-- The user data is stored in Redux for state management, and all updates (edit and delete) are synced with the browser's local storage.
-- Tailwind CSS is used for styling, ensuring a responsive and clean user interface
+- The application fetches github user data from https://api.github.com/users and https://api.github.com/users/${login}/repos to get repositories data
