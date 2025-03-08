@@ -73,7 +73,7 @@ export default function Footer() {
             </span>
           </a>
           <a
-            href="https://bullseye-porto.vercel.app/"
+            href="https://dhrm-portfolio.vercel.app/"
             className="text-gray-400 hover:text-gray-500"
             target="_blank"
             rel="noreferrer"

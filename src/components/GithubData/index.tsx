@@ -107,7 +107,16 @@ const GithubData: React.FC = () => {
                   ))}
                 </>
               ) : (
-                <span>No users found.</span>
+                <div className="text-center">
+                  <div>
+                    <span>No users found.</span>
+                  </div>
+                  <div>
+                    <span className="text-sm text-red-400">
+                      Please reload to refetch the data.
+                    </span>
+                  </div>
+                </div>
               )}
             </div>
           </div>
